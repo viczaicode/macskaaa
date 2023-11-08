@@ -1,0 +1,236 @@
+#tarolo {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+.fejlec {
+    background-image: url(kepek/hero.jpg);
+    height:100vh;
+    background-size: cover;
+    padding: 20px;
+}
+.menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    padding: 10px;
+    margin:0px;
+}
+.menu a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu li{
+    list-style: none;
+    background-color: rgb(250, 103, 6);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.nemtom h1 {
+    text-align: center;
+    color: white;
+    padding: 30px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.majomkenyerfa p {
+    text-align: center;
+    color: white;
+
+
+}
+.menu2 {
+    width: 200px;
+    margin: auto;
+
+}
+.menu2 p {
+    background-color: rgb(250, 103, 6);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.menu2 a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tartalom {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.tartalom h1 {
+    text-align: center;
+    margin:0;
+}
+.tartalom p {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.tartalom ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.tartalom li {
+    list-style: none;
+    background-color: rgb(250, 103, 6);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.tartalom a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tartalom2 {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+.tartalom2 h1 {
+    text-align: center;
+    margin:0;
+    padding: 10px;
+    margin-top: 50px;
+}
+.tartalom2 p {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.tartalom2 h2 {
+    text-align: center;
+    margin:0;
+    font-size: 20px;
+}
+.kephely {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+}
+.kephely img {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: 450px;
+    border-radius: 30px;
+    margin: auto;
+}
+.atfedett {
+    position: absolute;
+    top: 90%; 
+    left: 24%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 22px; 
+    text-align: center;
+    font-weight: bold;
+}
+.atfedett2 {
+    position: absolute;
+    top: 90%; 
+    left: 76%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 22px; 
+    text-align: center;
+    font-weight: bold;
+}
+.fedezdfel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 25px;
+    margin: auto;
+}
+.fedezdfel img {
+    max-width: 100px;
+    max-height: 70px;
+}
+.fedezdfel h1 {
+    text-align: left;
+    margin: auto;
+    padding: 0px;
+    
+}
+.fedezdfel p {
+    text-align: left;
+    margin:auto;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.fedezdfel ul {
+    list-style: none;
+    background-color: rgb(250, 103, 6);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.fedezdfel a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+.esemenyeink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    background-color: rgba(78, 73, 73, 0.568);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(99, 92, 92) ;
+   
+}
+.esemenyeink p {
+    text-align: left;
+    margin-left: 0px;
+
+
+}
+.esemenyeink h2 {
+    text-align: left;
+    margin: auto;
+
+}
+.esemenyeink ul {
+    list-style: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    border: solid orange;
+
+}
+.esemenyeink a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
